@@ -14,7 +14,7 @@ class Robot {
     this.materiales_disp = 100;
     this.combustible = 100;
 
-    this.imagen = imagen;
+    //this.imagen = imagen;
   }
   display() {
     if (frameCount % 1000 == 0) {
@@ -22,11 +22,11 @@ class Robot {
     }
     this.control();
     
-    // rectMode(CENTER);
-    // fill(255);
-    // rect(this.x, this.y, 40, 40);
-    imageMode(CENTER);
-    image(this.imagen, this.x, this.y, 50, 50);
+    rectMode(CENTER);
+    fill(255);
+    rect(this.x, this.y, 40, 40);
+    //imageMode(CENTER);
+    // image(this.imagen, this.x, this.y, 50, 50);
   }
   
   get y() {
