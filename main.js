@@ -37,6 +37,7 @@ function setup() {
   planetasDisp = [
     new Planeta(robot, planeta_img),
     new Planeta(robot, planeta_img),
+    new Planeta(robot, planeta_img),
     new Planeta(robot, planeta_img)
   ];  
 }
