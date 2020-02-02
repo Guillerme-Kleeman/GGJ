@@ -32,7 +32,7 @@ function setup() {
   ];
   hacer = "";
 
-  robot = new Robot();
+  robot = new Robot(robot_img);
 
   planetasDisp = [
     new Planeta(robot, planeta_img),
